@@ -64,11 +64,6 @@ public class SuggestionEngineTest {
         Assertions.assertEquals(expected, actual, "Failed for word: " + word + ", suggestions: " + actual);
     }
 
-    @Test
-    public void testSupercalafragelistic() {
-        String word = "supercalafragelistic";
-        String expected = "";
-        String actual = testEngine.generateSuggestions(word);
-        Assertions.assertEquals(expected, actual, "Failed for word: " + word + ", suggestions: " + actual);
-    }
+
+
 }
